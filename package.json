@@ -1,0 +1,21 @@
+{
+  "name": "hitagi-bot",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./hanekawa_bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^6.1.0",
+    "jsonfile": "^2.2.3",
+    "mongodb": "^2.1.18",
+    "npid": "^0.4.0",
+    "request": "^2.69.0",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.0",
+    "jshint": "^2.9.1"
+  }
+}
